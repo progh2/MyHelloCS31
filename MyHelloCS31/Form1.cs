@@ -16,5 +16,13 @@ namespace MyHelloCS31
         {
             InitializeComponent();
         }
+
+        private void btnGreeting_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("안녕하신가? 밥은 먹었나?", 
+                "나님이 말씀하시길..", 
+                MessageBoxButtons.YesNo,
+                MessageBoxIcon.Question);
+        }
     }
 }
